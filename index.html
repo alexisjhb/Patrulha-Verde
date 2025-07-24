@@ -1,16 +1,150 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="pt-br">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Patrulha Verde - Super Heróis da Sustentabilidade</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  Hello world
+
+  <header class="cabecalho">
+    <div class="container">
+      <h1 class="titulo-principal">Patrulha Verde</h1>
+      <p class="subtitulo">Os Super Heróis da Sustentabilidade 🌱</p>
+    </div>
+  </header>
+
+  <nav class="navegacao">
+    <div class="container">
+      <ul class="lista-navegacao">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#herois">Nossos Heróis</a></li>
+        <li><a href="#reciclagem">Reciclagem</a></li>
+        <li><a href="#compostagem">Compostagem</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section id="inicio" class="secao-hero">
+      <div class="container">
+        <div class="hero-content">
+          <h2>Bem-vindos à Liga dos Super Heróis Verdes!</h2>
+          <p class="hero-texto">
+            Unidos pela sustentabilidade, nossos heróis lutam diariamente contra a poluição 
+            e pelo futuro do nosso planeta. Cada um com seus superpoderes únicos para 
+            ensinar sobre reciclagem e compostagem!
+          </p>
+          <div class="herois-preview">
+            <img src="attached_assets/IMG-20250723-WA0005_1753366666420.jpg" alt="Patrulha Verde - Super Heróis" class="imagem-herois">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="herois" class="secao-herois">
+      <div class="container">
+        <h2 class="titulo-secao">Conheça Nossa Equipe</h2>
+        <div class="grid-herois">
+          <div class="card-heroi">
+            <div class="heroi-avatar heroi-1"></div>
+            <h3>EcoLíder</h3>
+            <p>Líder da equipe, especialista em coordenar ações de sustentabilidade e educação ambiental.</p>
+          </div>
+          <div class="card-heroi">
+            <div class="heroi-avatar heroi-2"></div>
+            <h3>Recicla-Man</h3>
+            <p>Mestre da reciclagem, ensina como separar corretamente todos os tipos de materiais.</p>
+          </div>
+          <div class="card-heroi">
+            <div class="heroi-avatar heroi-3"></div>
+            <h3>Compost Girl</h3>
+            <p>Especialista em compostagem, transforma resíduos orgânicos em adubo natural.</p>
+          </div>
+          <div class="card-heroi">
+            <div class="heroi-avatar heroi-4"></div>
+            <h3>Verde Guardião</h3>
+            <p>Protetor das florestas, defende a natureza e promove o reflorestamento.</p>
+          </div>
+          <div class="card-heroi">
+            <div class="heroi-avatar heroi-5"></div>
+            <h3>Eco Phantom</h3>
+            <p>Ninja da sustentabilidade, age nas sombras combatendo o desperdício.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="reciclagem" class="secao-content">
+      <div class="container">
+        <div class="content-flex">
+          <div class="texto-content">
+            <h2>♻️ O Poder da Reciclagem</h2>
+            <p>
+              Com Recicla-Man, você aprende que reciclagem é o processo de transformar 
+              materiais usados em novos produtos. Plásticos, papéis, vidros e metais 
+              podem ganhar uma nova vida!
+            </p>
+            <ul class="lista-dicas">
+              <li><strong>Azul:</strong> Papel e papelão</li>
+              <li><strong>Vermelho:</strong> Plástico</li>
+              <li><strong>Verde:</Strong> Vidro</li>
+              <li><strong>Amarelo:</strong> Metal</li>
+            </ul>
+          </div>
+          <div class="imagem-content">
+            <div class="card-heroi-destaque">
+              <div class="heroi-avatar heroi-2-grande"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="compostagem" class="secao-content secao-alternada">
+      <div class="container">
+        <div class="content-flex">
+          <div class="imagem-content">
+            <div class="card-heroi-destaque">
+              <div class="heroi-avatar heroi-3-grande"></div>
+            </div>
+          </div>
+          <div class="texto-content">
+            <h2>🌿 A Magia da Compostagem</h2>
+            <p>
+              Compost Girl ensina que compostagem é a transformação de resíduos orgânicos 
+              em adubo natural. Uma verdadeira alquimia verde que enriquece o solo!
+            </p>
+            <ul class="lista-dicas">
+              <li>Restos de frutas e vegetais</li>
+              <li>Borra de café e chá</li>
+              <li>Cascas de ovo</li>
+              <li>Folhas secas</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contato" class="rodape">
+    <div class="container">
+      <div class="footer-content">
+        <div class="contato-info">
+          <h3>Entre em Contato</h3>
+          <p>📬 patrulhaverde@email.com</p>
+          <p>🌎 @patrulhaverde</p>
+        </div>
+        <div class="footer-logo">
+          <img src="attached_assets/IMG-20250723-WA0003_1753366666354.jpg" alt="Logo Patrulha Verde" class="logo-footer">
+        </div>
+      </div>
+      <p class="copyright">&copy; 2025 Patrulha Verde - Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
   <script src="script.js"></script>
 </body>
-
 </html>
