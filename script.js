@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', function() {
     // Animação suave para os cards dos heróis
     const heroCards = document.querySelectorAll('.card-heroi');
