@@ -152,7 +152,9 @@ body {
   border: 4px solid #2e8b57;
 }
 
-.heroi-1 { background: linear-gradient(135deg, #32cd32, #228b22); }
+/*.heroi-1 { background: linear-gradient(135deg, #32cd32, #228b22); } */
+
+.heroi-1{background-image: url("IMG-20250723-WA0003.jpg");}
 .heroi-2 { background: linear-gradient(135deg, #90ee90, #32cd32); }
 .heroi-3 { background: linear-gradient(135deg, #98fb98, #90ee90); }
 .heroi-4 { background: linear-gradient(135deg, #2e8b57, #006400); }
