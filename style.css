@@ -152,13 +152,31 @@ body {
   border: 4px solid #2e8b57;
 }
 
-/*.heroi-1 { background: linear-gradient(135deg, #32cd32, #228b22); } */
-
-.heroi-1{background-image: url("IMG-20250723-WA0003.jpg");}
-.heroi-2 { background: linear-gradient(135deg, #90ee90, #32cd32); }
-.heroi-3 { background: linear-gradient(135deg, #98fb98, #90ee90); }
-.heroi-4 { background: linear-gradient(135deg, #2e8b57, #006400); }
-.heroi-5 { background: linear-gradient(135deg, #006400, #2e8b57); }
+.heroi-1 { 
+  background-image: url("attached_assets/IMG_20250730_082018_1753915430522.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.heroi-2 { 
+  background-image: url("attached_assets/IMG_20250730_082040_1753915430563.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.heroi-3 { 
+  background-image: url("attached_assets/IMG_20250730_082107_1753915430588.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.heroi-4 { 
+  background-image: url("attached_assets/IMG_20250730_082143_1753915430615.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.heroi-5 { 
+  background-image: url("attached_assets/IMG_20250730_082203_1753915430627.jpg");
+  background-size: cover;
+  background-position: center;
+}
 
 .card-heroi h3 {
   color: #2e8b57;
@@ -245,8 +263,16 @@ body {
   border: 6px solid #2e8b57;
 }
 
-.heroi-2-grande { background: linear-gradient(135deg, #90ee90, #32cd32); }
-.heroi-3-grande { background: linear-gradient(135deg, #98fb98, #90ee90); }
+.heroi-2-grande { 
+  background-image: url("attached_assets/IMG_20250730_082040_1753915430563.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.heroi-3-grande { 
+  background-image: url("attached_assets/IMG_20250730_082107_1753915430588.jpg");
+  background-size: cover;
+  background-position: center;
+}
 
 /* Footer */
 .rodape {
